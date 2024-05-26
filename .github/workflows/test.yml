@@ -31,6 +31,6 @@ jobs:
 
     - name: Build and push Docker image
       run: |
-        docker build -t myapp:latest -f docker/api/Dockerfile docker/api
+        docker build -t myapp:latest ../../api/Dockerfile
         docker tag myapp:latest marina51533/myapp:latest
         docker push marina51533/myapp:latest
