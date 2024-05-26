@@ -35,4 +35,3 @@ jobs:
         docker tag myapp:latest marina51533/myapp:latest
         docker push marina51533/myapp:latest
 
-
